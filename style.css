@@ -1,0 +1,356 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #eaeaea;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar .logo span {
+    color: #888;
+}
+.navbar .nav-links {
+    display: flex;
+    gap: 30px;
+}
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.navbar .nav-links a.active {
+    color: #ff6f61;
+}
+.navbar .contact-btn {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.5) 100%);
+}
+.hero .content {
+    max-width: 50%;
+}
+.hero .content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.hero .content h1 span {
+    display: block;
+    background-color: #ffeb3b;
+    padding: 0 10px;
+}
+.hero .content p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+.hero .content .buttons {
+    display: flex;
+    gap: 20px;
+}
+.hero .content .buttons a {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero .content .buttons .say-hello {
+    background: linear-gradient(90deg, #ff6f61, #ff9a8b);
+    color: #fff;
+}
+.hero .content .buttons .portfolio {
+    border: 1px solid #000;
+    color: #000;
+}
+.hero .image {
+    position: relative;
+}
+.hero .image img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.hero .image .decorations {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero .image .decorations .dot {
+    width: 100px;
+    height: 100px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.hero .image .decorations .semi-circle {
+    width: 200px;
+    height: 100px;
+    background-color: #9c27b0;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+.container {
+    display: flex;
+    margin-left: 200px;
+    padding: 20px;
+}
+.text-content {
+    max-width: 500px;
+    margin-left: 50px;
+}
+.text-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.text-content p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.btn-primary {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+}
+.btn-secondary {
+    border: 2px solid #000000;
+    color: #000000;
+}
+.image-content img {
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project {
+    width: 48%;
+    margin-bottom: 40px;
+}
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.project-category {
+    font-size: 16px;
+    color: #666;
+}
+
+.see-more {
+    text-align: center;
+    margin-top: 20px;
+}
+.see-more button {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container3 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.offering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.offering:last-child {
+    border-bottom: none;
+}
+.offering-title {
+    display: flex;
+    align-items: center;
+}
+.offering-title i {
+    margin-right: 10px;
+}
+.offering-title span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.offering-description {
+    flex: 1;
+    margin-left: 20px;
+}
+.offering img {
+    max-width: 100%;
+    height: auto;
+}
+.offering-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.offering-title span.mobile-app {
+    color: #ff6600;
+}
+.offering-title i.mobile-app {
+    color: #800080;
+}
+.container3 {
+    padding: 100px 20px;
+}
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.emoji {
+    font-size: 48px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.button-primary {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    border: none;
+}
+.button-secondary {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+.button-primary:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+}
+.button-secondary:hover {
+    background: #f0f0f0;
+}
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+}
+.social-icons {
+    margin-bottom: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+}
+.nav-links a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links a.active2 {
+    color: #ff7e5f;
+    margin-left: 1000px;
+}
+
+#contacts-section {
+    max-width: 800px; 
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #contacts-section h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #contacts-section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  #contacts-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #contacts-section li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  #contacts {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  #contacts:hover {
+    color: #23527c;
+  }
